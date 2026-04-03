@@ -14,7 +14,7 @@ class $modify(MyMenuLayer, MenuLayer) {
 
 		auto sprite = CCSprite::create("watermark.png"_spr);
 		sprite->setPosition({ winSize.width / 2, winSize.height / 2 });
-		scene->addChild(sprite, 9999);
+		scene->addChild(sprite);
 		sprite->retain();
 
 		return true;
